@@ -67,7 +67,7 @@ void Car::printDetails()
     cout << "Auto: " << model << " " << brand << endl;
     cout << "Moottori: " << objEngine.getHorsepower() << " hp, " << objEngine.getDisplacement() << " L" << endl;
 
-    //Käytin tätä looppia taas, toki muokkasin itse tilanteeseen sopivaksi.
+//Käytin tätä looppia taas, toki muokkasin itse tilanteeseen sopivaksi.
     Wheel* wheels[] = { &objWheel1, &objWheel2, &objWheel3, &objWheel4 };
 
     for (int i = 0; i < 4; i++) {

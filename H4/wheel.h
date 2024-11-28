@@ -15,6 +15,7 @@ public:
     void setSize(const int &newSize);
     string getType();
     void setType(const string &newType);
+
 };
 
 #endif // WHEEL_H
